@@ -37,3 +37,25 @@ if __name__ == "__main__" :
     application.run()
 ``` 
 `what is ((jinja)) ?? => jinja is a templateing engine syntax  that allow us to excute code like variables or functions inside html code or any simeler things `
+
+### to install the used modules from the requirements.txt file use the following command : 
+```bash 
+ pip install -r requirements.txt   
+```
+## Logging and Linting 
+### at first import the logging library 
+```python 
+import logging
+```
+### there is 5 levels of logging
+=> every method of them take string parameter to display 
+
+```python 
+import logging
+
+logging.debug()
+logging.info()
+logging.warning()
+logging.error()
+logging.critical()
+```
